@@ -6,6 +6,7 @@ setup(
     name = 'TODO: Enter a name',
     version = 'TODO: Enter a version',
     description = 'TODO: Enter a description',
+    long_description = open('README.rst').read() + '\n\n' + open('HISTORY.rst').read(),
     author = 'TODO: Enter your name',
     author_email = 'TODO: Enter your e-mail address',
     url = 'TODO: Enter an URL',
