@@ -2,9 +2,11 @@
 
 from distutils.core import setup
 
+execfile('package/version.py')
+
 setup(
     name = 'TODO: Enter a name',
-    version = 'TODO: Enter a version',
+    version = __version__,
     description = 'TODO: Enter a description',
     long_description = open('README.rst').read() + '\n\n' + open('HISTORY.rst').read(),
     author = 'TODO: Enter your name',
